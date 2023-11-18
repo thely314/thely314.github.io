@@ -1,5 +1,6 @@
 var song_list=["果てなき風の軌跡さえ~破~","琪露诺的完美算术教室","琪露诺的完美算数教室⑨周年版","NEEDY GIRL OVERDOSE","INTERNET YAMERO","二人の魔法","Sweet Treasure (Inst.)"];
 var i = 0;
+var magicStatus = 0;
 
 var audioPlayer = document.getElementById("audioPlayer");
 
@@ -7,6 +8,8 @@ var audioPlayer = document.getElementById("audioPlayer");
 window.onload = function() {
     var audio = document.getElementById("audioPlayer");
     audio.volume = 0.2;
+    var magicSound = document.getElementById("magicSound");
+    magicSound.volume = 0.2;
 };
 
 function play() {
@@ -60,4 +63,20 @@ function changeVolume(value) {
 function changeShowedText(i){
     var showedText = document.getElementById("currentMusic");
     showedText.innerText = "当前播放: " + song_list[i];
+}
+
+function magicSpell(){
+    var magicSound = document.getElementById("magicSound");
+    if(magicStatus == 0){
+        magicSound.src = "music/magicSpell_emotionTest.wav";
+        magicSound.load();
+        magicSound.play();
+        magicStatus = 1;
+    }
+    else{
+        magicSound.src = "music/magicSpell.wav";
+        magicSound.load();
+        magicSound.play();
+        magicStatus = 0;
+    }
 }
