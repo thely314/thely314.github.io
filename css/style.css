@@ -1,0 +1,87 @@
+.body{
+    background: url("img/blackBlockBG.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#listTitle {
+  position:absolute;
+  left: 200px;
+  top: 200px;
+  height: 100px;
+  width: 300px;
+}
+
+#audioList {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(3, 3, 3);
+    border-color: rgb(196, 219, 255);
+    border-width: 10px;
+    border-radius: 5%;
+    border-style: ridge;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    padding: 0;
+    margin: 0;
+    position:absolute;
+    left: 160px;
+    top: 250px;
+    height: 150px;
+    width: 350px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li:hover {
+    cursor: pointer;
+    color: rgb(0, 94, 255);
+}
+
+#currentMusic{
+  margin-top: 25px;
+  position:absolute;
+  left: 200px;
+  top: 400px;
+  height: 200px;
+}
+
+#controls {
+  margin-top: 50px;
+  position:absolute;
+  left: 260px;
+  top: 400px;
+  height: 200px;
+}
+
+button {
+  background-color: #f4f4f4;
+  color: #007bff;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+#volumeSlider {
+  position: absolute;
+  left: 80px;
+  top: 50px;
+}
+
+audio {
+  display: none;
+}
