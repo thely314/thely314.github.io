@@ -105,4 +105,3 @@ deploy:
   type: 'git'
   repo: https://thely314.github.io/
   branch: gh-pages
-  message: Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})
