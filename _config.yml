@@ -108,4 +108,4 @@ aplayer:
 deploy:
   type: 'git'
   repo: https://github.com/thely314/thely314.github.io
-  branch: gh-pages
+  branch: main
