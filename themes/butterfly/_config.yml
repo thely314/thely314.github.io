@@ -14,10 +14,10 @@ menu:
   Tags: /标签/ || fas fa-tags
   Categories: /分类/ || fas fa-folder-open
   # List||fas fa-list||hide:
-  #  Music: /music/ || fas fa-music
+  #  Music: /音乐/ || fas fa-music
   #  Movie: /movies/ || fas fa-video
   #  Link: /link/ || fas fa-link
-  - { key: "音乐", link: "/playlist/", icon: "iconfont icon-music" }
+  { key: "音乐", link: "/playlist/", icon: "iconfont icon-music" }
   About: /关于/ || fas fa-heart
 
 # Code Blocks (代碼相關)
@@ -678,7 +678,7 @@ activate_power_mode:
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
