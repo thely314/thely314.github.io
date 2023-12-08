@@ -758,8 +758,8 @@ subtitle:
   enable: true
   # Typewriter Effect (打字效果)
   effect: true
-  startDelay: 120 # time before typing starts in milliseconds
-  typeSpeed: 1 # type speed in milliseconds
+  startDelay: 150 # time before typing starts in milliseconds
+  typeSpeed: 250 # type speed in milliseconds
   backSpeed: 30 # backspacing speed in milliseconds
   loop: true
   # Customize typed.js (配置typed.js)
