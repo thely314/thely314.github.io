@@ -9,16 +9,16 @@ nav:
 
 # Menu 目錄
 menu:
-  Home: /主页/ || fas fa-home
-  Archives: /归档/ || fas fa-archive
-  Tags: /标签/ || fas fa-tags
-  Categories: /分类/ || fas fa-folder-open
+  Home: / || fas fa-home
+  Archives: /archives/ || fas fa-archive
+  Tags: /tags/ || fas fa-tags
+  Categories: /categories/ || fas fa-folder-open
   # List||fas fa-list||hide:
   #  Music: /音乐/ || fas fa-music
   #  Movie: /movies/ || fas fa-video
   #  Link: /link/ || fas fa-link
   # { key: "音乐", link: "/playlist/", icon: "iconfont icon-music" }
-  About: /关于/ || fas fa-heart
+  About: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -46,7 +46,7 @@ favicon: /img/thely_headIMG.png
 # Avatar (頭像)
 avatar:
   img: /img/thely_headIMG.png
-  effect: false
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -759,7 +759,7 @@ subtitle:
   # Typewriter Effect (打字效果)
   effect: true
   startDelay: 250 # time before typing starts in milliseconds
-  typeSpeed: 50 # type speed in milliseconds
+  typeSpeed: 10 # type speed in milliseconds
   backSpeed: 40 # backspacing speed in milliseconds
   loop: true
   # Customize typed.js (配置typed.js)
