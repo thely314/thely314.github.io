@@ -678,7 +678,7 @@ activate_power_mode:
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: true
+  enable: false
   size: 150
   alpha: 0.6
   zIndex: -1
@@ -928,7 +928,7 @@ inject:
     - <link rel="stylesheet" href="/css/personalized.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <div class="aplayer no-destroy" data-id="2029212574" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.2"> </div>
+    # - <div class="aplayer no-destroy" data-id="2029212574" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.2"> </div>
     # - <script src="xxxx"></script>
 
 # CDN
