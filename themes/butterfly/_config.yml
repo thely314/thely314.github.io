@@ -14,10 +14,10 @@ menu:
   Tags: /标签/ || fas fa-tags
   Categories: /分类/ || fas fa-folder-open
   # List||fas fa-list||hide:
-  #  Music: /音乐/ || fas fa-music
+  Music: /音乐/ || fas fa-music || link:/playlist/
   #  Movie: /movies/ || fas fa-video
   #  Link: /link/ || fas fa-link
-  { key: "音乐", link: "/playlist/", icon: "iconfont icon-music" }
+  # { key: "音乐", link: "/playlist/", icon: "iconfont icon-music" }
   About: /关于/ || fas fa-heart
 
 # Code Blocks (代碼相關)
