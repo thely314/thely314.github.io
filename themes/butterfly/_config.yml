@@ -265,6 +265,8 @@ aside:
     post_count: true
     last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
+  card_calendar:
+    enable: true
   card_post_series:
     enable: true
     orderBy: 'date' # Order by title or date
@@ -930,6 +932,8 @@ inject:
   bottom:
     # - <div class="aplayer no-destroy" data-id="2029212574" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.2"> </div>
     # - <script src="xxxx"></script>
+    - <script src="/js/calendar.js"></script>
+    - <script src="/js/languages.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
