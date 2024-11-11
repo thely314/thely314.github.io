@@ -930,6 +930,9 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <div class="aplayer no-destroy" data-id="12849168225" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.5"> </div>
+    - <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+    - <script src="/js/main.js"></script>
+    # 解决日历无内容的神医 https://www.nightb.cn/archives/tian-jia-ri-li----hexomei-hua
     - <script src="/js/calendar.js"></script>
     - <script src="/js/languages.js"></script>
     # - <script src="xxxx"></script>
