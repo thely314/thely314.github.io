@@ -9,10 +9,10 @@
     else
       !=partial('includes/widget/card_author', {}, {cache: true})
       !=partial('includes/widget/card_announcement', {}, {cache: true})
-      if theme.aside.card_calendar
-        include ./card_calendar.pug
       !=partial('includes/widget/card_top_self', {}, {cache: true})
       .sticky_layout
+        if theme.aside.card_calendar
+          include ./card_calendar.pug
         if showToc
           include ./card_post_toc.pug
         if page.series
@@ -23,11 +23,10 @@
     //- page
     !=partial('includes/widget/card_author', {}, {cache: true})
     !=partial('includes/widget/card_announcement', {}, {cache: true})
-    if theme.aside.card_calendar
-      include ./card_calendar.pug
     !=partial('includes/widget/card_top_self', {}, {cache: true})
-
     .sticky_layout
+      if theme.aside.card_calendar
+        include ./card_calendar.pug
       if showToc
         include ./card_post_toc.pug
       !=partial('includes/widget/card_recent_post', {}, {cache: true})
