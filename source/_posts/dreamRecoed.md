@@ -1,5 +1,5 @@
 ---
-title: dreamRecord
+title: Record of Dream
 tags:
   - waifu
 categories:
