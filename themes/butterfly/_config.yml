@@ -234,7 +234,7 @@ aside:
       link: https://github.com/thely314
   card_announcement: #侧栏公告
     enable: true
-    content: 随缘更新blog：学习&踩坑经验，倒垃圾，暴论
+    content: 使用cloudflare的cdn服务加速了本站，但是我自己的平均访问速度变慢了（草）
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

@@ -1,0 +1,61 @@
+- class_name: 友链
+  flink_style: butterfly # flexcard || butterfly
+  class_desc: 大佬和朋友的博客链接
+  link_list:
+    - name: sinDier
+      link: https://sindier.github.io/
+      avatar: https://sindier.github.io/img/img5.png
+      descr: 真我的探寻者。群星的追逐者。框架的逆反者。
+    # - name: ✨小透明・宸✨
+    #   link: https://akarin.dev/
+    #   avatar: https://gcore.jsdelivr.net/gh/TransparentLC/transparentlc.github.io/img/avatar.jpg
+    #   descr: 存在感消失的地方|ω•`)
+    # - name: GZTime
+    #   link: https://blog.gzti.me/
+    #   avatar: https://cdn.gzti.me/avatar/Icon_2021.png
+    #   descr: Walking on the Time Axis.
+    # - name: 小黑CN
+    #   link: https://xiaoheicn.top/
+    #   avatar: https://xiaoheicn.top/wp-content/uploads/2022/09/cropped-logo-1.png
+    #   descr: 一个全门类的技术论坛，提供各位热爱技术的朋友一个交流的舞台
+    # - name: 梦落の小屋
+    #   link: https://blog.dreamfall.cn/
+    #   avatar: https://assets.mengluo.work/image/avatar.webp
+    #   descr: 因为不可能，所以才值得相信 - 届ける言葉を今は育ててる
+    # - name: ouoholly
+    #   link: https://ouoholly.github.io/
+    #   avatar: https://ouoholly.github.io/img/avatar.png
+    #   descr: Welcome to my page ₍₍٩( ᐛ )۶₎₎♪
+    # - name: HCLonely
+    #   link: https://blog.hclonely.com/
+    #   avatar: /img/HCLonelyAvatar.jpg
+    #   descr: 懒人一个
+    # - name: maomao
+    #   link: https://www.maodream.com/
+    #   avatar: https://gravatar.helingqi.com/wavatar/be08a5de9abcf40520d1a678789b6403?d=mm
+    #   descr: 一只派蒙厨
+    # - name: NepNepWantNap
+    #   link: https://nepnepwantnap.icu/
+    #   avatar: http://nepnepwantnap.icu/wp-content/uploads/2024/04/1713348529-NepNepWantNap.jpg
+    #   descr: 给时光以生命，给岁月以文明
+    # - name: timochan
+    #   link: https://www.timochan.cn/
+    #   avatar: https://www.timochan.cn/api/objects/icon/9s6tbcvax674yv2m88.jpg
+    #   descr: 有缘自会来相见，无缘相忘于江湖
+    # - name: Ryonnoski
+    #   link: https://ryonnoski.com.cn/
+    #   avatar: https://q1.qlogo.cn/g?b=qq&nk=893147911&s=100
+    #   descr: 一个什么也不会的辣鸡
+
+- class_name: 网站
+  flink_style: butterfly # flexcard || butterfly
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Github
+      link: https://github.com/
+      avatar: fab fa-github
+      descr: 代码托管平台
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: favicon
+      descr: 本站使用的静态博客框架
