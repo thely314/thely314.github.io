@@ -1,5 +1,5 @@
 - class_name: 友链
-  flink_style: butterfly # flexcard || butterfly
+  flink_style: flexcard # flexcard || butterfly 本地正常，部署异常
   class_desc: 大佬和朋友的博客链接
   link_list:
     - name: sinDier
@@ -48,7 +48,7 @@
     #   descr: 一个什么也不会的辣鸡
 
 - class_name: 网站
-  flink_style: butterfly # flexcard || butterfly
+  flink_style: flexcard # flexcard || butterfly
   class_desc: 值得推荐的网站
   link_list:
     - name: Github
