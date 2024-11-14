@@ -6,6 +6,10 @@
       link: https://sindier.github.io/
       avatar: https://sindier.github.io/img/img5.png
       descr: 真我的探寻者。群星的追逐者。框架的逆反者。
+    - name: Candlest's Blog
+      link: https://candlest.cc/
+      avatar: https://avatars.githubusercontent.com/u/125652899?v=4
+      descr: Fun and meaningful job
     # - name: ✨小透明・宸✨
     #   link: https://akarin.dev/
     #   avatar: https://gcore.jsdelivr.net/gh/TransparentLC/transparentlc.github.io/img/avatar.jpg
@@ -53,9 +57,25 @@
   link_list:
     - name: Github
       link: https://github.com/
-      avatar: fab fa-github
+      # avatar: fab fa-github
       descr: 代码托管平台
     - name: Hexo
       link: https://hexo.io/zh-cn/
-      avatar: favicon
+      # avatar: favicon
       descr: 本站使用的静态博客框架
+    - name: Cloudcone
+      link: https://cloudcone.com/
+      avatar: https://cloudcone.com/wp-content/uploads/2017/05/cloudcone-logo.png
+      descr: 高性价比的VPS服务商
+    - name: Cloudflare
+      link: https://www.cloudflare.com/
+      # avatar: favicon
+      descr: 提供CDN服务
+    - name: Moe Counter!
+      link: https://count.getloli.com/
+      # avatar: favicon
+      descr: 一个可爱的访问计数器
+    - name: 猫猫按钮
+      link: https://hiiro.club/
+      avatar: https://hiiro.club/img/logo.svg
+      descr: Hiiro按钮(是的私货向)
