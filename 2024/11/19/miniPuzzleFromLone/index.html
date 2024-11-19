@@ -1,0 +1,230 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>miniGameFromLone | Ciallo!</title><meta name="author" content="lone(thely314)"><meta name="copyright" content="lone(thely314)"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="mini Game From LoneintroEN:Driven by the idea of CTF Thinking it was interesting, I decided to design three beginner-friendly puzzles as a mini game.(Actually, there are also ideas to publicize my blo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="miniGameFromLone">
+<meta property="og:url" content="https://thely314.github.io/2024/11/19/miniPuzzleFromLone/index.html">
+<meta property="og:site_name" content="Ciallo!">
+<meta property="og:description" content="mini Game From LoneintroEN:Driven by the idea of CTF Thinking it was interesting, I decided to design three beginner-friendly puzzles as a mini game.(Actually, there are also ideas to publicize my blo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://thely314.github.io/img/thely_headIMG.png">
+<meta property="article:published_time" content="2024-11-19T14:29:43.000Z">
+<meta property="article:modified_time" content="2024-11-19T15:02:43.523Z">
+<meta property="article:author" content="lone(thely314)">
+<meta property="article:tag" content="CTF">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://thely314.github.io/img/thely_headIMG.png"><link rel="shortcut icon" href="/img/thely_headIMG.png"><link rel="canonical" href="https://thely314.github.io/2024/11/19/miniPuzzleFromLone/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'miniGameFromLone',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-11-19 23:02:43'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/personalized.css"><meta name="generator" content="Hexo 7.0.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+document.addEventListener('pjax:send', () => {
+  Pace.restart()
+})
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/thely_headIMG.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/42_backward.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Ciallo!"><span class="site-name">Ciallo!</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">miniGameFromLone</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-11-19T14:29:43.000Z" title="发表于 2024-11-19 22:29:43">2024-11-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-11-19T15:02:43.523Z" title="更新于 2024-11-19 23:02:43">2024-11-19</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/mini-game/">mini game</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">445</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>2分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="miniGameFromLone"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="mini-Game-From-Lone"><a href="#mini-Game-From-Lone" class="headerlink" title="mini Game From Lone"></a>mini Game From Lone</h1><h2 id="intro"><a href="#intro" class="headerlink" title="intro"></a>intro</h2><h3 id="EN"><a href="#EN" class="headerlink" title="EN:"></a>EN:</h3><p><del>Driven by the idea of CTF</del> Thinking it was interesting, I decided to design three beginner-friendly puzzles as a mini game.(Actually, there are also ideas to publicize my blog)</p>
+<p>the flag you need to collect has the fromat of <code>cdkPartN&#123;XXX&#125;</code>, N means number <code>1-3</code>, but the content of <code>cdkPartN&#123;XXX&#125;</code> are not the real cdkey.</p>
+<p>Please submit all flags and solutions at once (via email: <a href="mailto:&#112;&#52;&#55;&#56;&#x61;&#48;&#x62;&#98;&#57;&#101;&#97;&#56;&#x38;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;">&#112;&#52;&#55;&#56;&#x61;&#48;&#x62;&#98;&#57;&#101;&#97;&#56;&#x38;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;</a>, or via private chats). If you encounter problems, please also contact me through the above methods.</p>
+<p>The first person to submit all flags and solutions will be awarded. Tips will be updated on this page if needed.</p>
+<p>The reward will be a <code>Steam game within the price range of 100(be pending)</code> or <code>KFC V50 for you</code></p>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文:"></a>中文:</h3><p>站长<del>打CTF打的</del>出于“觉得有意思所以就做了试试”的想法，设计了三个新手相对友好的问题，打算弄个小游戏(其实也有宣传我的博客的想法)</p>
+<p>你需要收集的flag的格式为<code>cdkPartN&#123;XXX&#125;</code>，N表示数字<code>1-3</code>，但是 <code>cdkPartN&#123;XXX&#125;</code> 的内容不是真正的cdkey</p>
+<p>请一次提交所有flag和解题方法(通过邮箱<a href="mailto:&#x70;&#52;&#x37;&#x38;&#97;&#x30;&#98;&#98;&#57;&#101;&#x61;&#x38;&#56;&#64;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;">&#x70;&#52;&#x37;&#x38;&#97;&#x30;&#98;&#98;&#57;&#101;&#x61;&#x38;&#56;&#64;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;</a>，也接受私聊)。遇到问题时同样通过上述方式联系我</p>
+<p>第一个提交所有flag和解题方法的人将获得奖励。如有需要，本页将更新提示。</p>
+<p>奖励将会是<code>价位100以内的steam游戏(待定)</code>或<code>KFC V你50</code></p>
+<h2 id="puzzle-1"><a href="#puzzle-1" class="headerlink" title="puzzle 1"></a>puzzle 1</h2><p><strong>A basic string with clear meaning(?) guides you to find the treasure image:</strong></p>
+<p><strong>意义明确的基础字符串(?)，引导你找到藏宝图片:</strong></p>
+<p>bG9uZWNoYW4uc3BhY2UvaW1nL2hlcmUucG5n</p>
+<h2 id="puzzle-2"><a href="#puzzle-2" class="headerlink" title="puzzle 2"></a>puzzle 2</h2><p><strong>A string with unclear meaning but distinct features, containing AES:</strong></p>
+<p><strong>意义不明确但有明显特征的字符串，内含AES:</strong></p>
+<p>ZTk2ZTAwNTQ1YmUwMjQ1ZjM2NzEzYTNmZTcyNGViNDc0ODJjMzhlMDBkNTY2OGFjODA2NGU4MzU3MTJiMDNhNTwhLS0gdGhlIE5FWFQgQUVTIGtleSBpcyBteSBmYXZvcml0ZSB3YWlmdSdzIGVuZ2xpc2ggbmFtZShhbGwgaW4gbG93ZXJjYXNlKSBhZnRlciBBRVMgZW5jcnlwdCwgdGhlIEFFUyBrZXkgYW5kIEFFUyBJViBib3RoIGFyZSBteSBmYXZvcml0ZSB3YWlmdSdzIGVuZ2xpc2ggbmFtZSBhZnRlciBNRDUgLS0+</p>
+<h2 id="puzzle-3"><a href="#puzzle-3" class="headerlink" title="puzzle 3"></a>puzzle 3</h2><p><strong>DO SOME EASY JOB AND FELLOW ME ON gITHUB, YOU WiLL GEt THE AWARDS SOON</strong></p>
+<p><strong>你需要阅读英文题面</strong></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://thely314.github.io">lone(thely314)</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://thely314.github.io/2024/11/19/miniPuzzleFromLone/">https://thely314.github.io/2024/11/19/miniPuzzleFromLone/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://thely314.github.io" target="_blank">Ciallo!</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/CTF/">CTF</a></div><div class="post_share"><div class="social-share" data-image="/img/thely_headIMG.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2024/11/11/dreamRecoed/" title="Record of Dream"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Record of Dream</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/11/10/AfterHackergame2024/" title="After Hackergame 2024"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-10</div><div class="title">After Hackergame 2024</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/thely_headIMG.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">lone(thely314)</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/thely314"><i class="fab fa-github"></i><span>Follow Me On Github</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/thely314" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">使用cloudflare的cdn服务加速了本站，但是我自己的平均访问速度变慢了（草）</div></div><div class="card-widget card-calendar"><div class="card-content"><div class="item-headline"><i class="far fa-calendar-alt" aria-hidden="true"></i><span>日历</span></div><div class="widget-wrap"></div><div class="widget" id="calendar"></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#mini-Game-From-Lone"><span class="toc-number">1.</span> <span class="toc-text">mini Game From Lone</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#intro"><span class="toc-number">1.1.</span> <span class="toc-text">intro</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#EN"><span class="toc-number">1.1.1.</span> <span class="toc-text">EN:</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%AD%E6%96%87"><span class="toc-number">1.1.2.</span> <span class="toc-text">中文:</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#puzzle-1"><span class="toc-number">1.2.</span> <span class="toc-text">puzzle 1</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#puzzle-2"><span class="toc-number">1.3.</span> <span class="toc-text">puzzle 2</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#puzzle-3"><span class="toc-number">1.4.</span> <span class="toc-text">puzzle 3</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/11/19/miniPuzzleFromLone/" title="miniGameFromLone">miniGameFromLone</a><time datetime="2024-11-19T14:29:43.000Z" title="发表于 2024-11-19 22:29:43">2024-11-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/11/11/dreamRecoed/" title="Record of Dream">Record of Dream</a><time datetime="2024-11-11T05:18:21.000Z" title="发表于 2024-11-11 13:18:21">2024-11-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/11/10/AfterHackergame2024/" title="After Hackergame 2024">After Hackergame 2024</a><time datetime="2024-11-10T08:16:21.000Z" title="发表于 2024-11-10 16:16:21">2024-11-10</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/12/09/%E6%9B%B4%E6%8D%A2Hexo-butterfly%E4%B8%BB%E9%A2%98%E8%AE%B0%E5%BD%95/" title="更换Hexo_butterfly主题记录">更换Hexo_butterfly主题记录</a><time datetime="2023-12-09T00:48:02.000Z" title="发表于 2023-12-09 08:48:02">2023-12-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/12/05/hello-world/" title="Hello World">Hello World</a><time datetime="2023-12-05T14:00:00.000Z" title="发表于 2023-12-05 22:00:00">2023-12-05</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2024 By lone(thely314)</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a><span class="footer-separator">|</span><span>代码托管 </span><a target="_blank" rel="noopener" href="https://github.com/">Github</a><span class="footer-separator">|</span><span>CDN服务 </span><a target="_blank" rel="noopener" href="https://www.cloudflare.com/">Cloudflare</a></div><div class="footer_custom_text">Ciallo! World!</div><div id="running-time"><script>setInterval(()=>{let create_time=Math.round(new Date('2023-11-16 09:25:34').getTime()/1000);let timestamp=Math.round((new Date().getTime()+8*60*60*1000)/1000);let second=timestamp-create_time;let time=new Array(0,0,0,0,0);if(second>=365*24*3600){time[0]=parseInt(second/(365*24*3600));second%=365*24*3600;}if(second>=24*3600){time[1]=parseInt(second/(24*3600));second%=24*3600;}if(second>=3600){time[2]=parseInt(second/3600);second%=3600;}if(second>=60){time[3]=parseInt(second/60);second%=60;}if(second>0){time[4]=second;}currentTimeHtml='本站已运行 '+time[0]+' 年 '+time[1]+' 天 '+time[2]+' 时 '+time[3]+' 分 '+time[4]+' 秒';document.getElementById("running-time").innerHTML=currentTimeHtml;},1000);</script></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><div class="aplayer no-destroy" data-id="12849168225" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.5"> </div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/main.js"></script><script src="/js/calendar.js"></script><script src="/js/languages.js"></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
