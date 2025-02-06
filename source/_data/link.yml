@@ -22,6 +22,10 @@
       link: https://blog.gzti.me/
       avatar: https://cdn.gzti.me/avatar/Icon_2021.png
       descr: Walking on the Time Axis.
+    - name: Holinality
+      link: https://www.holinality.com/
+      avatar: https://avatars.githubusercontent.com/u/144345949
+      descr: 沉迷于击中萌和ba中无法自拔
 
 - class_name: 网站
   flink_style: flexcard # flexcard || butterfly

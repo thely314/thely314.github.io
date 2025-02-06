@@ -44,10 +44,9 @@ The reward will be a `Steam game within the price range of 100(be pending)` or `
 ### puzzle 1
 *暂无解决者*
 ### puzzle 2
-苍月<br/>
 Jdwiwd
 ### puzzle 3
-*暂无解决者*
+苍月
 
 ## puzzle 1
 
