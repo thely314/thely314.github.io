@@ -1,5 +1,5 @@
 ---
-title: miniGameFromLone(End)
+title: mini Game From Lone(End)
 tags:
   - CTF
 categories:
